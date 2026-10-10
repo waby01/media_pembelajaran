@@ -14,6 +14,10 @@ Aplikasi media pembelajaran berbasis web interaktif untuk mata pelajaran Bahasa 
 - `database.json`: Tempat penyimpanan 25 bank soal, materi detail, dan knowledge AI.
 - `README.md`: Dokumentasi proyek.
 
+
+## website
+https://mediapembelajaran-sandy.vercel.app/
+
 ## 🚀 REVISI WAB!
 - `Suara AI`: ganti yang lebih proper.
 - `API Key`: masih error tuh.
