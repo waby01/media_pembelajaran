@@ -1,0 +1,199 @@
+{
+  "info_modul": {
+    "judul": "Modulku AI - Bunyi Apa?",
+    "jenjang": "Kelas 1 SD / MIN",
+    "mata_pelajaran": "Bahasa Indonesia"
+  },
+  "knowledge_base_ai": [
+    "Bunyi adalah getaran yang merambat dan dapat didengar oleh telinga manusia.",
+    "Benda yang menghasilkan bunyi disebut sebagai sumber bunyi.",
+    "Bunyi Alam adalah bunyi yang dihasilkan oleh alam seperti air hujan (tik-tik-tik), petir (duar!), angin (wusss), ombak (byur!), dan aliran sungai (gricik-gricik).",
+    "Bunyi Hewan: Kucing (meong), Ayam Jantan (kukukuruyuk), Ayam Betina (petok-petok), Bebek (kwek-kwek), Sapi (moo), Katak (teot-blung), Burung (cicit-cuwit), Anjing (gug-gug), Kambing (mbeee).",
+    "Bunyi Buatan adalah bunyi yang sengaja dibuat oleh manusia menggunakan alat/tubuh: Peluit (pripit-pripit), Tepuk tangan (prok-prok), Bel sekolah (teng-teng), Klakson (tin-tin), Gitar (petik/jreng), Drum (dung-dung), Langkah kaki (prok-prok).",
+    "Sifat Bunyi terdiri dari Bunyi Keras (klakson, petir, sirine ambulans) dan Bunyi Pelan/Lembut (bisikan, detak jam dinding tik-tok, suara jangkrik, hembusan napas).",
+    "Telinga adalah indra pendengaran. Bagian luar telinga menangkap getaran bunyi.",
+    "Bunyi tidak dapat terdengar di ruang hampa udara karena tidak ada media yang merambatkan getaran."
+  ],
+  "materi_detail": {
+    "bunyi_alam": {
+      "icon": "<i class=\"fa-solid fa-cloud-showers-heavy text-amber-500\"></i>",
+      "badge": "Suara Alam",
+      "badgeColor": "bg-amber-100 text-amber-800",
+      "title": "Bunyi Alam (Fenomena Alam)",
+      "content": "<p class=\"font-medium\"><strong>Bunyi Alam</strong> adalah suara yang dihasilkan langsung oleh peristiwa alam tanpa buatan manusia.</p><div class=\"bg-amber-50 p-4 rounded-xl border border-amber-200 my-3\"><h4 class=\"font-bold text-amber-900 mb-2\">🌧️ Contoh Bunyi Alam:</h4><ul class=\"list-disc list-inside text-xs space-y-1.5 text-amber-900\"><li><strong>Air Hujan:</strong> Suaranya \"Tik... tik... tik...\"</li><li><strong>Angin Kencang:</strong> Suaranya \"Wuuusss... wuuusss...\"</li><li><strong>Petir Menyambar:</strong> Suaranya \"Duaarr... juarrr!\"</li><li><strong>Ombak Pantai:</strong> Suaranya \"Byuurr... byuurr...\"</li><li><strong>Aliran Sungai:</strong> Suaranya \"Gricik... gricik...\"</li></ul></div><p class=\"text-xs text-amber-800 bg-amber-100/50 p-3 rounded-lg font-semibold\">💡 Info Sains: Bunyi alam terjadi karena adanya getaran udara dari fenomena cuaca dan lingkungan sekitar kita.</p>"
+    },
+    "bunyi_hewan": {
+      "icon": "<i class=\"fa-solid fa-dog text-emerald-500\"></i>",
+      "badge": "Suara Binatang",
+      "badgeColor": "bg-emerald-100 text-emerald-800",
+      "title": "Bunyi Suara Hewan",
+      "content": "<p class=\"font-medium\">Setiap hewan memiliki organ suara khusus yang menghasilkan bunyi unik sebagai cara berkomunikasi.</p><div class=\"grid grid-cols-2 gap-2 text-xs my-3\"><div class=\"bg-emerald-50 p-3 rounded-xl border border-emerald-100\"><strong>🐱 Kucing:</strong> \"Meoong... meoong!\"</div><div class=\"bg-emerald-50 p-3 rounded-xl border border-emerald-100\"><strong>🐔 Ayam Jantan:</strong> \"Kukukuruyuukk!\"</div><div class=\"bg-emerald-50 p-3 rounded-xl border border-emerald-100\"><strong>🦆 Bebek:</strong> \"Kwek... kwek... kwek!\"</div><div class=\"bg-emerald-50 p-3 rounded-xl border border-emerald-100\"><strong>🐮 Sapi:</strong> \"Mooo... mooo!\"</div><div class=\"bg-emerald-50 p-3 rounded-xl border border-emerald-100\"><strong>🐸 Katak:</strong> \"Teot blung... teot blung!\"</div><div class=\"bg-emerald-50 p-3 rounded-xl border border-emerald-100\"><strong>🐦 Burung:</strong> \"Cicit cuwit... cicit cuwit!\"</div></div>"
+    },
+    "bunyi_buatan": {
+      "icon": "<i class=\"fa-solid fa-drum text-blue-500\"></i>",
+      "badge": "Alat & Benda",
+      "badgeColor": "bg-blue-100 text-blue-800",
+      "title": "Bunyi Buatan Manusia",
+      "content": "<p class=\"font-medium\"><strong>Bunyi Buatan</strong> adalah suara yang sengaja diciptakan oleh manusia menggunakan alat musik, kendaraan, atau gerakan anggota tubuh.</p><div class=\"bg-blue-50 p-4 rounded-xl border border-blue-200 my-3\"><h4 class=\"font-bold text-blue-900 mb-2\">🔔 Contoh Bunyi Buatan:</h4><ul class=\"list-disc list-inside text-xs space-y-1.5 text-blue-900\"><li><strong>Tepuk Tangan:</strong> Suaranya \"Prok... prok... prok!\"</li><li><strong>Peluit Olahraga:</strong> Suaranya \"Pripit... pripit!\"</li><li><strong>Bel Sekolah:</strong> Suaranya \"Teng... teng... teng!\"</li><li><strong>Klakson Motor:</strong> Suaranya \"Tin... tin... tin!\"</li><li><strong>Petikan Gitar:</strong> Suaranya \"Jreng... jreng...\"</li></ul></div>"
+    },
+    "bunyi_sifat": {
+      "icon": "<i class=\"fa-solid fa-volume-high text-purple-500\"></i>",
+      "badge": "Sifat Bunyi",
+      "badgeColor": "bg-purple-100 text-purple-800",
+      "title": "Bunyi Keras vs Bunyi Pelan",
+      "content": "<p class=\"font-medium\">Berdasarkan volumenya, bunyi dibedakan menjadi **Bunyi Keras** dan **Bunyi Pelan**.</p><div class=\"space-y-2 text-xs my-3\"><div class=\"bg-rose-50 p-3 rounded-xl border border-rose-100\"><strong class=\"text-rose-800\">🔊 Bunyi Keras:</strong> Suara klakson mobil, sirine ambulans, dan suara petir. Bunyi keras dihasilkan oleh getaran yang kuat.</div><div class=\"bg-purple-50 p-3 rounded-xl border border-purple-100\"><strong class=\"text-purple-800\">🔉 Bunyi Pelan/Lembut:</strong> Bisikan teman, detak jam dinding (\"Tik-tok\"), dan hembusan angin sepoi-sepoi.</div></div>"
+    }
+  },
+  "kuis_bank": [
+    {
+      "question": "Bunyi suara air hujan yang jatuh di atas genting rumah adalah...",
+      "options": ["Kukukuruyuk!", "Tik... tik... tik!", "Tin... tin... tin!", "Meoong!"],
+      "answer": 1,
+      "explanation": "Tepat! Suara titik-titik air hujan yang jatuh berbunyi tik-tik-tik."
+    },
+    {
+      "question": "Suara berkokok 'Kukukuruyuukk!' di pagi hari dihasilkan oleh hewan...",
+      "options": ["Kucing", "Sapi", "Ayam Jantan", "Bebek"],
+      "answer": 2,
+      "explanation": "Hebat! Ayam jantan berkokok di pagi hari."
+    },
+    {
+      "question": "Manakah di bawah ini yang termasuk contoh Bunyi Buatan?",
+      "options": ["Suara Petir", "Suara Tepuk Tangan", "Suara Angin", "Suara Ombak"],
+      "answer": 1,
+      "explanation": "Benar! Tepuk tangan adalah bunyi buatan dari gerakan tangan manusia."
+    },
+    {
+      "question": "Indra pada tubuh manusia yang berfungsi untuk mendengarkan bunyi adalah...",
+      "options": ["Mata", "Hidung", "Telinga", "Lidah"],
+      "answer": 2,
+      "explanation": "Tepat sekali! Telinga adalah indra pendengaran."
+    },
+    {
+      "question": "Bunyi sirine mobil ambulans terdengar sangat...",
+      "options": ["Pelan", "Keras", "Lembut", "Hening"],
+      "answer": 1,
+      "explanation": "Benar! Sirine ambulans berbunyi keras agar pengendara lain memberi jalan."
+    },
+    {
+      "question": "Suara khas yang dikeluarkan oleh hewan kucing adalah...",
+      "options": ["Meoong... meoong!", "Mooo... mooo!", "Kwek... kwek!", "Gug... gug!"],
+      "answer": 0,
+      "explanation": "Pinter! Suara kucing adalah meoong."
+    },
+    {
+      "question": "Bunyi 'Pripit... pripit!' dihasilkan saat Pak Guru meniup...",
+      "options": ["Gitar", "Peluit", "Drum", "Terompet"],
+      "answer": 1,
+      "explanation": "Tepat! Peluit yang ditiup akan menghasilkan bunyi pripit-pripit."
+    },
+    {
+      "question": "Contoh bunyi pelan yang tidak mengagetkan telinga adalah...",
+      "options": ["Suara Petir Menyambar", "Suara Detak Jam Dinding", "Suara Klakson Truk", "Suara Sirine"],
+      "answer": 1,
+      "explanation": "Hebat! Detak jam dinding (tik-tok) terdengar sangat pelan."
+    },
+    {
+      "question": "Suara 'Kwek... kwek... kwek!' adalah bunyi yang dihasilkan oleh...",
+      "options": ["Katak", "Bebek", "Burung", "Kambing"],
+      "answer": 1,
+      "explanation": "Benar! Bebek berbunyi kwek-kwek."
+    },
+    {
+      "question": "Bunyi angin kencang yang bertiup terdengar seperti...",
+      "options": ["Prok... prok!", "Wuuusss... wuuusss!", "Teng... teng!", "Duar... duar!"],
+      "answer": 1,
+      "explanation": "Tepat! Angin kencang berbunyi wuuusss-wuuusss."
+    },
+    {
+      "question": "Benda yang dapat menghasilkan bunyi disebut sebagai...",
+      "options": ["Sumber Bunyi", "Penerima Bunyi", "Pemantul Bunyi", "Penyerap Bunyi"],
+      "answer": 0,
+      "explanation": "Pinter! Setiap benda yang bergetar dan menghasilkan suara disebut sumber bunyi."
+    },
+    {
+      "question": "Bagaimana bunyi yang dihasilkan saat kita memetik senar gitar?",
+      "options": ["Dung... dung!", "Jreng... jreng!", "Prok... prok!", "Tin... tin!"],
+      "answer": 1,
+      "explanation": "Benar! Senar gitar yang dipetik berbunyi jreng-jreng."
+    },
+    {
+      "question": "Manakah yang merupakan contoh Bunyi Alam?",
+      "options": ["Suara Bel Sekolah", "Suara Petir", "Suara Peluit", "Suara Radio"],
+      "answer": 1,
+      "explanation": "Tepat! Petir adalah peristiwa alam sehingga termasuk bunyi alam."
+    },
+    {
+      "question": "Suara 'Mooo... mooo!' di peternakan adalah bunyi dari hewan...",
+      "options": ["Sapi", "Kuda", "Kambing", "Ayam"],
+      "answer": 0,
+      "explanation": "Hebat! Sapi berbunyi mooo-mooo."
+    },
+    {
+      "question": "Suara bisikan teman di kelas termasuk ke dalam sifat bunyi...",
+      "options": ["Keras", "Sangat Keras", "Pelan / Lembut", "Bising"],
+      "answer": 2,
+      "explanation": "Benar! Suara bisikan terdengar pelan dan lembut."
+    },
+    {
+      "question": "Bunyi bel tanda masuk sekolah biasanya berbunyi...",
+      "options": ["Teng... teng... teng!", "Meoong... meoong!", "Byuurr... byuurr!", "Wuuusss!"],
+      "answer": 0,
+      "explanation": "Tepat! Bel sekolah dipukul menghasilkan bunyi teng-teng."
+    },
+    {
+      "question": "Hewan yang menghasilkan bunyi 'Teot blung... teot blung!' di kolam adalah...",
+      "options": ["Ikan", "Katak", "Ular", "Kura-kura"],
+      "answer": 1,
+      "explanation": "Pinter! Katak berbunyi teot blung."
+    },
+    {
+      "question": "Bunyi ombak di tepi pantai terdengar seperti...",
+      "options": ["Byuurr... byuurr!", "Pripit... pripit!", "Tin... tin!", "Prok... prok!"],
+      "answer": 0,
+      "explanation": "Hebat! Hantaman ombak di pantai berbunyi byuurr-byuurr."
+    },
+    {
+      "question": "Alat musik yang dimainkan dengan cara dipukul hingga berbunyi 'Dung... dung!' adalah...",
+      "options": ["Suling", "Drum / Gendang", "Gitar", "Biola"],
+      "answer": 1,
+      "explanation": "Tepat! Gendang atau drum dipukul menghasilkan bunyi dung-dung."
+    },
+    {
+      "question": "Mengapa kita dapat mendengar bunyi?",
+      "options": ["Karena ada mata", "Karena ada getaran yang masuk ke telinga", "Karena ada udara dingin", "Karena lampu menyala"],
+      "answer": 1,
+      "explanation": "Benar! Bunyi terjadi karena adanya getaran yang ditangkap oleh telinga."
+    },
+    {
+      "question": "Suara 'Mbee... mbee...' adalah bunyi dari hewan...",
+      "options": ["Kambing", "Kucing", "Anjing", "Sapi"],
+      "answer": 0,
+      "explanation": "Hebat! Kambing mengeluarkan suara mbee-mbee."
+    },
+    {
+      "question": "Suara klakson mobil yang ditekan pengendara berbunyi...",
+      "options": ["Tin... tin!", "Cicit... cuwit!", "Tik... tik!", "Byuurr!"],
+      "answer": 0,
+      "explanation": "Tepat! Klakson mobil berbunyi tin-tin."
+    },
+    {
+      "question": "Bunyi langkah kaki saat kita berjalan menggunakan sepatu berbunyi...",
+      "options": ["Prok... prok!", "Wuuusss!", "Duar... duar!", "Teot... blung!"],
+      "answer": 0,
+      "explanation": "Benar! Langkah kaki bersepatu berbunyi prok-prok."
+    },
+    {
+      "question": "Burung yang berkicau di atas pohon menghasilkan bunyi...",
+      "options": ["Cicit... cuwit!", "Gug... gug!", "Kukukuruyuk!", "Mooo!"],
+      "answer": 0,
+      "explanation": "Pinter! Kicauan burung berbunyi cicit-cuwit."
+    },
+    {
+      "question": "Apa yang harus kita lakukan jika mendengar bunyi sirine ambulans saat berkendara?",
+      "options": ["Menutup telinga", "Membawa kendaraan menepi untuk memberi jalan", "Mengejar ambulans", "Membunyikan klakson"],
+      "answer": 1,
+      "explanation": "Sangat tepat! Ambulans membawa pasien darurat sehingga wajib diberi jalan."
+    }
+  ]
+}

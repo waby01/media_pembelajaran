@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modulku AI - Mengenal Bunyi (Kelas 1 SD)</title>
+  
+  <!-- Favicon Emoji -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔊</text></svg>">
+  
+  <!-- Tailwind CSS Play CDN (Visual Full Warna & Responsif) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Canvas Confetti Library -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  
+  <!-- Custom CSS Extensions -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-amber-50 font-sans min-h-screen pb-12">
+
+  <!-- Header Navigasi -->
+  <header class="bg-teal-600 text-white shadow-lg sticky top-0 z-50">
+    <div class="max-w-4xl mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <div class="bg-white text-teal-600 p-2 rounded-full text-xl shadow">
+          <i class="fa-solid fa-ear-listen"></i>
+        </div>
+        <div>
+          <h1 class="font-bold text-lg leading-tight">Modulku AI</h1>
+          <p class="text-xs text-teal-100">Media Pembelajaran SD / MI Kelas 1</p>
+        </div>
+      </div>
+      <div class="bg-teal-700 px-3 py-1 rounded-full text-xs font-semibold flex items-center gap-1">
+        <i class="fa-solid fa-music text-yellow-300"></i>
+        <span>Bab: Bunyi Apa?</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="max-w-4xl mx-auto px-4 pt-6">
+
+    <!-- Tab Buttons -->
+    <div class="flex border-b-2 border-teal-200 mb-6 bg-white rounded-t-xl overflow-hidden shadow-sm">
+      <button onclick="switchTab('materi')" id="tab-materi" class="flex-1 py-3 px-4 font-bold text-teal-700 border-b-4 border-teal-600 bg-teal-50 flex items-center justify-center gap-2 transition">
+        <i class="fa-solid fa-headphones"></i> Modul Bunyi
+      </button>
+      <button onclick="switchTab('kuis')" id="tab-kuis" class="flex-1 py-3 px-4 font-bold text-gray-500 hover:text-teal-600 flex items-center justify-center gap-2 transition">
+        <i class="fa-solid fa-gamepad"></i> Kuis Tebak Bunyi
+      </button>
+      <button onclick="switchTab('ai')" id="tab-ai" class="flex-1 py-3 px-4 font-bold text-gray-500 hover:text-teal-600 flex items-center justify-center gap-2 transition">
+        <i class="fa-solid fa-robot"></i> Tanya Kak Neii (AI)
+      </button>
+    </div>
+
+    <!-- TAB 1: MODUL MATERI BUNYI -->
+    <section id="content-materi" class="block space-y-6">
+      <div class="bg-white p-6 rounded-2xl shadow-md border border-teal-100">
+        
+        <!-- Bab Header -->
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 mb-6 pb-4 border-b border-gray-100">
+          <div>
+            <span class="bg-amber-100 text-amber-800 text-xs font-extrabold px-3 py-1 rounded-full uppercase">Bahasa Indonesia Kelas 1</span>
+            <h2 class="text-2xl font-bold text-gray-800 mt-1">Mengenal Berbagai Bunyi di Sekitar Kita 🔔</h2>
+          </div>
+          <button onclick="speakText('Halo adik-adik kelas 1! Hari ini kita akan belajar mengenal bunyi alam dan bunyi buatan! Klik kotak di bawah ya!')" class="bg-teal-100 hover:bg-teal-200 text-teal-800 px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-2 transition self-start md:self-auto">
+            <i class="fa-solid fa-volume-high text-sm"></i> 🔊 Dengarkan Salam
+          </button>
+        </div>
+
+        <!-- Section 1: Pengertian Bunyi -->
+        <div class="mb-8">
+          <h3 class="text-lg font-bold text-teal-700 mb-2 flex items-center gap-2">
+            <i class="fa-solid fa-wave-square text-teal-500"></i> Apa itu Bunyi?
+          </h3>
+          <p class="text-gray-600 leading-relaxed bg-teal-50/50 p-4 rounded-xl border border-teal-100 text-sm">
+            <strong>Bunyi</strong> adalah getaran yang merambat dan bisa didengar oleh telinga kita. Ada bunyi dari fenomena alam, suara hewan, dan bunyi dari alat buatan manusia!
+          </p>
+        </div>
+
+        <!-- Section 2: Kategori Bunyi -->
+        <div class="mb-8">
+          <h3 class="text-lg font-bold text-teal-700 mb-4 flex items-center gap-2">
+            <i class="fa-solid fa-icons text-teal-500"></i> Pilih Jenis Bunyi (Klik Kotaknya!)
+          </h3>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            
+            <!-- Card 1: Bunyi Alam -->
+            <div onclick="openDetail('bunyi_alam')" class="bg-amber-50 p-5 rounded-2xl border-2 border-amber-200 hover:border-amber-400 hover:shadow-lg transition cursor-pointer group">
+              <div class="flex items-center justify-between mb-2">
+                <div class="flex items-center gap-3">
+                  <span class="text-4xl text-amber-500 group-hover:scale-110 transition-transform"><i class="fa-solid fa-cloud-showers-heavy"></i></span>
+                  <div>
+                    <h4 class="font-bold text-gray-800 group-hover:text-amber-700 transition">1. Bunyi Alam</h4>
+                    <span class="text-[10px] bg-amber-200 text-amber-900 px-2 py-0.5 rounded font-semibold">Suara Alam</span>
+                  </div>
+                </div>
+                <i class="fa-solid fa-chevron-right text-amber-400 group-hover:translate-x-1 transition-transform"></i>
+              </div>
+              <p class="text-xs text-gray-600 leading-relaxed">
+                Suara air hujan, petir menyambar, dan angin kencang. Klik untuk penjelasan rinci.
+              </p>
+            </div>
+
+            <!-- Card 2: Bunyi Hewan -->
+            <div onclick="openDetail('bunyi_hewan')" class="bg-emerald-50 p-5 rounded-2xl border-2 border-emerald-200 hover:border-emerald-400 hover:shadow-lg transition cursor-pointer group">
+              <div class="flex items-center justify-between mb-2">
+                <div class="flex items-center gap-3">
+                  <span class="text-4xl text-emerald-500 group-hover:scale-110 transition-transform"><i class="fa-solid fa-cat"></i></span>
+                  <div>
+                    <h4 class="font-bold text-gray-800 group-hover:text-emerald-700 transition">2. Suara Hewan</h4>
+                    <span class="text-[10px] bg-emerald-200 text-emerald-900 px-2 py-0.5 rounded font-semibold">Suara Binatang</span>
+                  </div>
+                </div>
+                <i class="fa-solid fa-chevron-right text-emerald-400 group-hover:translate-x-1 transition-transform"></i>
+              </div>
+              <p class="text-xs text-gray-600 leading-relaxed">
+                Suara kucing (Meong!), ayam berkokok, dan bebek. Klik untuk menirukan suaranya.
+              </p>
+            </div>
+
+            <!-- Card 3: Bunyi Buatan -->
+            <div onclick="openDetail('bunyi_buatan')" class="bg-blue-50 p-5 rounded-2xl border-2 border-blue-200 hover:border-blue-400 hover:shadow-lg transition cursor-pointer group">
+              <div class="flex items-center justify-between mb-2">
+                <div class="flex items-center gap-3">
+                  <span class="text-4xl text-blue-500 group-hover:scale-110 transition-transform"><i class="fa-solid fa-drum"></i></span>
+                  <div>
+                    <h4 class="font-bold text-gray-800 group-hover:text-blue-700 transition">3. Bunyi Buatan</h4>
+                    <span class="text-[10px] bg-blue-200 text-blue-900 px-2 py-0.5 rounded font-semibold">Alat & Benda</span>
+                  </div>
+                </div>
+                <i class="fa-solid fa-chevron-right text-blue-400 group-hover:translate-x-1 transition-transform"></i>
+              </div>
+              <p class="text-xs text-gray-600 leading-relaxed">
+                Bunyi peluit, tepuk tangan, bel sekolah, dan klakson kendaraan.
+              </p>
+            </div>
+
+            <!-- Card 4: Bunyi Keras & Pelan -->
+            <div onclick="openDetail('bunyi_sifat')" class="bg-purple-50 p-5 rounded-2xl border-2 border-purple-200 hover:border-purple-400 hover:shadow-lg transition cursor-pointer group">
+              <div class="flex items-center justify-between mb-2">
+                <div class="flex items-center gap-3">
+                  <span class="text-4xl text-purple-500 group-hover:scale-110 transition-transform"><i class="fa-solid fa-volume-high"></i></span>
+                  <div>
+                    <h4 class="font-bold text-gray-800 group-hover:text-purple-700 transition">4. Bunyi Keras & Pelan</h4>
+                    <span class="text-[10px] bg-purple-200 text-purple-900 px-2 py-0.5 rounded font-semibold">Sifat Bunyi</span>
+                  </div>
+                </div>
+                <i class="fa-solid fa-chevron-right text-purple-400 group-hover:translate-x-1 transition-transform"></i>
+              </div>
+              <p class="text-xs text-gray-600 leading-relaxed">
+                Membedakan suara klakson yang keras dengan suara bisikan pelan.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TAB 2: KUIS INTERAKTIF TEBAK BUNYI (10 SOAL ACAK) -->
+    <section id="content-kuis" class="hidden space-y-6">
+      <div class="bg-white p-6 rounded-2xl shadow-md border border-teal-100">
+        <div class="flex justify-between items-center mb-6">
+          <div>
+            <h2 class="text-xl font-bold text-gray-800">Kuis Tebak Bunyi! 🎮</h2>
+            <p class="text-xs text-gray-500">10 Soal Acak dari 25 Bank Soal</p>
+          </div>
+          <div class="bg-amber-100 text-amber-800 px-4 py-1.5 rounded-full text-sm font-extrabold shadow-sm">
+            Skor: <span id="score-display">0</span> / 100
+          </div>
+        </div>
+
+        <div id="quiz-container">
+          <div class="mb-4">
+            <span id="question-number" class="text-xs font-bold text-teal-600 uppercase tracking-wider">Pertanyaan 1</span>
+            <p id="question-text" class="text-lg font-semibold text-gray-800 mt-1"></p>
+          </div>
+
+          <div id="options-container" class="space-y-3 mb-6"></div>
+
+          <div id="feedback-box" class="hidden p-4 rounded-xl mb-4 font-semibold text-sm"></div>
+
+          <button id="next-btn" onclick="nextQuestion()" class="w-full bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 rounded-xl shadow transition hidden">
+            Lanjut Pertanyaan <i class="fa-solid fa-arrow-right ml-1"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: AI ASSISTANT (Kak Neii) -->
+    <section id="content-ai" class="hidden space-y-6">
+      <div class="bg-white p-6 rounded-2xl shadow-md border border-teal-100 flex flex-col h-[520px]">
+        <div class="pb-4 border-b border-gray-100 flex flex-col md:flex-row md:items-center justify-between gap-3">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-amber-400 text-white rounded-full flex items-center justify-center text-xl shadow">🐱</div>
+            <div>
+              <h3 class="font-bold text-gray-800 leading-tight">Kak Neii si Kucing Pintar</h3>
+              <p class="text-xs text-emerald-600 flex items-center gap-1 font-medium">
+                <span class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></span> Teman Belajar AI Active
+              </p>
+            </div>
+          </div>
+          <div class="flex items-center gap-2">
+            <input type="password" id="api-key-input" placeholder="Masukkan Gemini API Key..." class="text-xs px-3 py-1.5 border rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 w-48">
+            <button onclick="saveApiKey()" class="bg-teal-600 text-white text-xs px-3 py-1.5 rounded-lg hover:bg-teal-700 font-medium">Simpan</button>
+          </div>
+        </div>
+
+        <div id="chat-messages" class="flex-1 overflow-y-auto py-4 space-y-3">
+          <div class="flex items-start gap-2 max-w-[85%]">
+            <div class="w-8 h-8 bg-amber-300 rounded-full flex items-center justify-center text-sm flex-shrink-0">🐱</div>
+            <div class="bg-amber-50 text-gray-800 p-3.5 rounded-2xl rounded-tl-none border border-amber-100 text-sm">
+              Halo adik-adik kelas 1! 👋 Aku **Kak Neii**! Mau tanya suara hewan atau suara benda apa hari ini? Neii siap menirukan suaranya! 🐱 Meoong!
+            </div>
+          </div>
+        </div>
+
+        <div class="pt-3 border-t border-gray-100 flex gap-2">
+          <input type="text" id="chat-input" placeholder="Tanyakan suara hewan/benda ke Kak Neii..." onkeypress="handleKeyPress(event)" class="flex-1 px-4 py-2.5 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-teal-500 text-sm">
+          <button onclick="sendMessage()" class="bg-teal-600 hover:bg-teal-700 text-white px-5 py-2.5 rounded-xl font-bold text-sm flex items-center gap-1 transition">
+            Kirim <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- MODAL POP-UP DETAIL MATERI -->
+  <div id="detail-modal" class="fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-4 hidden backdrop-blur-sm">
+    <div class="bg-white rounded-3xl max-w-2xl w-full p-6 max-h-[90vh] overflow-y-auto shadow-2xl relative">
+      <button onclick="closeDetail()" class="absolute top-4 right-4 bg-gray-100 hover:bg-gray-200 text-gray-700 w-9 h-9 rounded-full flex items-center justify-center text-lg transition">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="flex items-center gap-3 mb-4">
+        <div id="modal-icon" class="text-4xl"></div>
+        <div>
+          <span id="modal-badge" class="text-[10px] uppercase font-extrabold px-2.5 py-0.5 rounded"></span>
+          <h2 id="modal-title" class="text-2xl font-bold text-gray-800"></h2>
+        </div>
+      </div>
+
+      <div class="mb-4 flex items-center justify-between bg-teal-50 p-3 rounded-xl border border-teal-100">
+        <div class="flex items-center gap-2 text-xs font-semibold text-teal-800">
+          <i class="fa-solid fa-robot text-teal-600 text-base"></i> Suara Pembaca (Bahasa Indonesia Asli)
+        </div>
+        <button onclick="readModalText()" class="bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-2 shadow transition">
+          <i class="fa-solid fa-volume-high"></i> 🔊 Bacakan Penjelasan
+        </button>
+      </div>
+
+      <div id="modal-body" class="text-gray-700 text-sm leading-relaxed space-y-4"></div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
