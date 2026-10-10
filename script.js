@@ -303,7 +303,7 @@ window.sendMessage = async function () {
 
   for (let modelName of modelsToTry) {
     try {
-      const url = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${userApiKey}`;
+      const url = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=AQ.Ab8RN6Kq-IKoZhWW_pcltCnPgQ1i6MuJ8J4KO7-CH5BeaoxMtw`;
 
       const response = await fetch(url, {
         method: 'POST',
